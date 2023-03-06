@@ -1,0 +1,74 @@
+.heartBeat {
+  animation-iteration-count:initial;
+  animation-name: heartBeat;
+  animation-duration: 1.3s;
+  animation-delay: 1s;
+  animation-timing-function: ease-in-out;
+  }
+
+.heartBeat:hover{
+  animation-play-state: paused;
+}
+
+@keyframes heartBeat {
+  0% {
+    transform: scale(1);
+  }
+  14% {
+    transform: scale(1.3);
+  }
+  28%{
+    transform: scale(1);
+  }
+  42% {
+    transform: scale(1.3);
+  }
+  70% {
+    transform: scale(1);
+  }
+}
+
+.follow-arrow {
+  display: inline-block;
+  border-right: 2px solid white;
+  border-bottom: 2px solid white;
+  transform: rotate(315deg);
+  margin: 5px;
+  width: 12px;
+  height: 12px;
+}
+
+.first, .second, .third, .last {
+  animation: follow 1.5s infinite;
+
+}
+
+.first {
+animation-direction: alternate;
+animation-delay: alternate;
+}
+
+.second {
+animation-delay: .2s;
+animation-direction: alternate;
+margin-top: -6px;
+}
+
+.third {
+animation-delay: .3s;
+animation-direction: alternate;
+margin-top: -6px;
+}
+
+.last {
+  animation-delay: .4s;
+  animation-direction: alternate;
+  margin-top: -6px;
+  }
+
+@keyframes follow {
+
+  0%   { opacity: 0; }
+  50%  { opacity: .5; }
+  100% { opacity: 1; }
+}

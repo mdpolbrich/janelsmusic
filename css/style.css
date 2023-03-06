@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+@import url('components/animations.css');
+@import url('components/avatar.css');
+@import url('components/navbar.css');
+@import url('components/wave.css');
+@import url('components/cards.css');
+@import url('components/footer.css');
+@import url('components/hero.css');
+@import url('components/buttons.css');
+@import url('components/forms.css');
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  font-family: "Poppins", -apple-system, BlinkMacSystemFont, "Segoe UI", Poppins, "Helvetica Neue", Arial, sans-serif;
+  font-size: 18px;
+}
+
+.container {
+  margin: 0 auto;
+  width: 100%;
+}

@@ -1,0 +1,14 @@
+#wave {
+  background-color: white;
+}
+
+.wave > svg {
+  height: 175px;
+  overflow: hidden;
+  width: 100%;
+}
+
+path {
+  stroke: none;
+  fill: #1B1A17;
+}

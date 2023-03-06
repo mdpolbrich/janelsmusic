@@ -1,0 +1,86 @@
+#music {
+  background-color: #F5F2E7;
+  padding-bottom: 40px;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 16px;
+  padding: 40px;
+  background-color: light;
+}
+
+.card {
+  width: 350px;
+  border-radius: 8px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  margin: 0 20px 0 10px;
+}
+
+.card .card-info {
+  padding: 0 20px 20px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  position: relative;
+}
+
+.card-info h4 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+}
+
+.card-info p {
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  font-weight: 200px;
+  font-style: italic;
+}
+
+.card-img-top {
+  width: 100%;
+  padding: 20px;
+  border-radius: 16px;
+  height: 280px;
+}
+
+#fanlink {
+  max-width: 400px;
+  max-height: 620px;
+}
+
+/* Smallest device*/
+@media (min-width: 100px) and (max-width: 575px) {
+  .cards {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+  .cards {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {
+  .cards {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) {
+  .cards {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+  .cards {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}

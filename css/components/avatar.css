@@ -1,0 +1,8 @@
+.avatar {
+  margin-left: 25px;
+}
+
+.avatar > img {
+  border-radius: 50%;
+  padding: 8px;
+}
