@@ -1,21 +1,20 @@
 #hero {
-  background-image: url(/images/hero1.JPG);
+  background: url(/images/RAW1\(582\).jpg);
   object-fit: cover;
   height: 700px;
   width: 100%;
   background-size: cover;
   overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
   }
 
 
-.header-logo {
-  text-align: left;
-  position: relative;
-  left:80px;
-  top:380px;
-}
-
-
-/* .header-arrows {
-  text-align: center;
-} */
+  .field {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    padding-bottom: 50px;
+  }

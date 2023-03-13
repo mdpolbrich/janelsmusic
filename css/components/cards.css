@@ -1,21 +1,25 @@
 #music {
   background-color: #F5F2E7;
-  padding-bottom: 40px;
+  padding-bottom: 80px;
+}
+
+.music-title {
+  padding: 60px 0px 20px 0px;
+  color: #1B1A17;
 }
 
 .cards {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-gap: 16px;
-  padding: 40px;
-  background-color: light;
+  position: relative;
+  align-items: center;
+  grid-gap: 30px;
 }
 
 .card {
   width: 350px;
   border-radius: 8px;
   box-shadow: 0 0 15px rgba(0,0,0,0.2);
-  margin: 0 20px 0 10px;
+  margin: auto;
 }
 
 .card .card-info {
@@ -50,25 +54,25 @@
   max-height: 620px;
 }
 
-.play-btn {
-  position: absolute;
-  right: 26px;
-  top: -40px;
-  border-radius: 50%;
-  background-color: #1DB954;
-  border: none;
-}
-
 .play-btn > i {
   font-size: 30px;
   color: white;
-  margin: 4px;
+  position: absolute;
+  top: -47px;
+  right: 30px;
+  background-color: #1DB954;
+  border-radius: 50%;
+  padding: 8px;
 }
+
 
 /* Smallest device*/
 @media (min-width: 100px) and (max-width: 575px) {
   .cards {
     grid-template-columns: 1fr;
+  }
+  .card {
+    width: 250px;
   }
 }
 
@@ -76,6 +80,9 @@
 @media (min-width: 576px) {
   .cards {
     grid-template-columns: 1fr;
+  }
+  .card {
+    width: 250px;
   }
 }
 
@@ -91,11 +98,17 @@
   .cards {
     grid-template-columns: 1fr 1fr 1fr;
   }
+  .card {
+    width: 300px;
+  }
 }
 
 /* Extra large devices (large desktops, 1200px and up)*/
 @media (min-width: 1200px) {
   .cards {
     grid-template-columns: 1fr 1fr 1fr;
+  }
+  .card {
+    width: 350px;
   }
 }

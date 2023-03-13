@@ -2,7 +2,7 @@
   animation-iteration-count:initial;
   animation-name: heartBeat;
   animation-duration: 1.3s;
-  animation-delay: 1s;
+  animation-delay: 3s;
   animation-timing-function: ease-in-out;
   }
 
@@ -32,7 +32,7 @@
   display: inline-block;
   border-right: 2px solid white;
   border-bottom: 2px solid white;
-  transform: rotate(315deg);
+  transform: rotate(42deg);
   margin: 5px;
   width: 12px;
   height: 12px;
@@ -66,9 +66,57 @@ margin-top: -6px;
   margin-top: -6px;
   }
 
+
+.scroll {
+  width: 60px;
+  height: 60px;
+  border: 2px solid white;
+  border-radius: 50%;
+  position: relative;
+  animation: down 1.5s infinite;
+  -webkit-animation: down 1.5s infinite;
+  opacity: 0.5;
+}
+
+  .scroll::before{
+		content: '';
+		position: absolute;
+		top: 15px;
+		left: 18px;
+		width: 18px;
+		height: 18px;
+		border-left: 2px solid white;
+  	border-bottom: 2px solid white;
+		transform: rotate(-45deg);
+	}
+
 @keyframes follow {
 
   0%   { opacity: 0; }
   50%  { opacity: .5; }
   100% { opacity: 1; }
+}
+
+@keyframes down {
+	0% {
+		transform: translate(0);
+	}
+	20% {
+		transform: translateY(15px);
+	}
+	40% {
+		transform: translate(0);
+	}
+}
+
+@-webkit-keyframes down {
+	0% {
+		transform: translate(0);
+	}
+	20% {
+		transform: translateY(15px);
+	}
+	40% {
+		transform: translate(0);
+	}
 }
