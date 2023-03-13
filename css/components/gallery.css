@@ -1,0 +1,22 @@
+.gallery-photo {
+  background-size: cover;
+  min-height: 75vh;
+  padding: 0;
+  overflow: hidden;
+}
+
+.first-photo {
+  background-image: url(/images/503541D6-9B68-49C4-8225-B948E39F7227_1_105_c.jpeg);
+}
+
+.second-photo {
+  background-image: url(/images/503541D6-9B68-49C4-8225-B948E39F7227_1_105_c.jpeg);
+}
+
+.third-photo {
+  background-image: url(/images/503541D6-9B68-49C4-8225-B948E39F7227_1_105_c.jpeg);
+}
+
+.last-photo {
+  background-image: url(/images/503541D6-9B68-49C4-8225-B948E39F7227_1_105_c.jpeg);
+}

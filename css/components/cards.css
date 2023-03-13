@@ -50,6 +50,21 @@
   max-height: 620px;
 }
 
+.play-btn {
+  position: absolute;
+  right: 26px;
+  top: -40px;
+  border-radius: 50%;
+  background-color: #1DB954;
+  border: none;
+}
+
+.play-btn > i {
+  font-size: 30px;
+  color: white;
+  margin: 4px;
+}
+
 /* Smallest device*/
 @media (min-width: 100px) and (max-width: 575px) {
   .cards {

@@ -6,7 +6,7 @@
   padding: 4px;
 }
 
-.navbar-socials {
+.socials {
   font-size: 28px;
 }
 
@@ -19,8 +19,8 @@
 }
 
 .list-inline-item:hover {
-  color:white;
-  opacity: 0.2;
+  color:#1DB954;;
+  opacity: 0.8;
 }
 
 .navbar-item {

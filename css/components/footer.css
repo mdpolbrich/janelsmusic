@@ -6,19 +6,21 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  color:#777777;
-  padding: 24px 54px;
+  justify-items: center;
+  color:#F5F2E7;
   height: 125px;
 }
 
 .footer-socials > a {
   margin: 0 1rem 0 0;
-  color:#777777;
+  font-size: 22px;
+  color: #F5F2E7;
 }
 
 .footer-section > p {
   text-align: center;
   font-family: 'Poppins', sans-serif;
   font-size: 16px;
+  margin: 0;
 
 }

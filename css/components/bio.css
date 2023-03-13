@@ -1,0 +1,29 @@
+#bio {
+  background-color: #8D7B68;
+}
+
+.bio {
+  color: #F5F2E7;
+  padding: 70px 70px 20px 70px;
+}
+
+.bio > h2 {
+  text-align: center;
+}
+
+.bio > p {
+  text-align: justify;
+  text-shadow: 2px 2px 4px #A0937D;
+  padding: 20px 50px 0px 50px;
+  margin: 0;
+}
+
+.bio > svg {
+  overflow: hidden;
+  width: 100%;
+}
+
+path {
+  stroke: none;
+  fill: #F5F2E7;
+}
