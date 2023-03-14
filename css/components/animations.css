@@ -90,6 +90,10 @@ margin-top: -6px;
 		transform: rotate(-45deg);
 	}
 
+  .scroll:hover {
+    animation-play-state: paused;
+  }
+
 @keyframes follow {
 
   0%   { opacity: 0; }

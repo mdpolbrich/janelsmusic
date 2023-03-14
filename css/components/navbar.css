@@ -19,8 +19,8 @@
 }
 
 .list-inline-item:hover {
-  color:#1DB954;
-  opacity: 0.8;
+  color:white;
+  opacity: 0.4;
 }
 
 .navbar-item {
