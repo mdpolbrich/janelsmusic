@@ -6,17 +6,44 @@
 }
 
 .first-photo {
-  background-image: url(/images/503541D6-9B68-49C4-8225-B948E39F7227_1_105_c.jpeg);
+  background-image: url(/images/Original.jpeg);
 }
 
 .second-photo {
-  background-image: url(/images/IMG_4547.PNG);
+  background-image: url(/images/Purple.jpeg);
 }
 
 .third-photo {
-  background-image: url(/images/IMG_4549.PNG);
+  background-image: url(/images/Sepia.jpeg);
 }
 
 .last-photo {
-  background-image: url(/images/IMG_4543.PNG);
+  background-image: url(/images/B&W.jpeg);
+}
+
+/* Smallest device*/
+@media (min-width: 100px) and (max-width: 575px) {
+  .first-photo{
+    display: none;
+  }
+
+  .second-photo {
+    display: none;
+  }
+
+  .third-photo{
+    display: none;
+  }
+
+  .last-photo {
+    min-height: 80vh;
+  }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+  .gallery-photo {
+    background-position: center;
+    min-height: 82vh;
+  }
 }

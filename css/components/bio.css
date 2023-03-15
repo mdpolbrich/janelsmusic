@@ -1,18 +1,15 @@
 #bio {
   background-color: #8D7B68;
-  padding-top: 60px;
 }
 
 .bio {
   color: #F5F2E7;
-  padding: 50px 0px 0px 0px;
+  padding-top: 90px;
   align-items: center;
 }
 
-
-.bio > h2 {
-  text-align: center;
-  font-family: 'Kaushan Script', cursive;
+.logo {
+  margin-bottom: 20px;
 }
 
 .bio > p {
@@ -30,4 +27,17 @@
 path {
   stroke: none;
   fill: #F5F2E7;
+}
+
+/* Smallest device*/
+@media (min-width: 100px) and (max-width: 575px) {
+  .bio {
+    padding: 40px 0px;
+  }
+
+  .logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }

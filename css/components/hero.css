@@ -18,3 +18,10 @@
     width: 300px;
     padding-bottom: 50px;
   }
+
+  /* Smallest device*/
+@media (min-width: 100px) and (max-width: 820px) {
+  #hero {
+    background-position: center;
+  }
+}

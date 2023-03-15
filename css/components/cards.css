@@ -4,7 +4,7 @@
 }
 
 .music-title {
-  padding: 60px 0px 20px 0px;
+  padding: 60px 0px;
   color: #1B1A17;
 }
 
@@ -122,7 +122,11 @@
     display: none;
   }
   #music {
-    padding: 40px 0px 80px 0px;
+    padding: 80px 0px;
+  }
+
+  .music-title{
+    padding: 0 0 30px 0;
   }
 }
 

@@ -12,16 +12,24 @@
   padding: 0px 50px;
 }
 
-.footer-socials > a {
-  margin: 0 1rem 0 0;
-  font-size: 22px;
-  color: #F5F2E7;
-}
-
 .footer-section > p {
   text-align: center;
   font-family: 'Poppins', sans-serif;
   font-size: 16px;
   margin: 0;
 
+}
+
+/* Smallest device*/
+@media (min-width: 100px) and (max-width: 575px) {
+  .footer-section{
+    display: block;
+    height: 100%;
+    text-align: center;
+    padding: 20px 0px;
+  }
+
+  .footer-section > p {
+    padding: 10px 50px 25px 50px;
+  }
 }
