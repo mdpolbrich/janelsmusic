@@ -1,6 +1,6 @@
 #music {
   background-color: #F5F2E7;
-  padding: 60px 0px 140px 0px;
+  padding: 60px 0px;
 }
 
 .music-title {
@@ -96,9 +96,10 @@
 
 .mobile-card p {
   font-family: 'Poppins', sans-serif;
-  font-size: 16px;
-  font-weight: 200px;
+  font-size: 14px;
   font-style: italic;
+  inline-size: 125px;
+  padding-top: 4px;
 }
 
 .mobile-card .mobile-card-infos {

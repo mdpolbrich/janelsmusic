@@ -4,17 +4,17 @@
 
 .bio {
   color: #F5F2E7;
-  padding-top: 90px;
+  padding: 60px 0px;
   align-items: center;
+  height: 700px;
 }
 
 .logo {
-  margin-bottom: 20px;
+  margin: 40px 0px;
 }
 
 .bio > p {
   text-align: justify;
-  text-shadow: 2px 2px 4px #A0937D;
   padding: 20px 50px 0px 50px;
   margin: 0;
 }
@@ -26,13 +26,15 @@
 
 path {
   stroke: none;
-  fill: #F5F2E7;
+  fill: #8D7B68;
 }
+
 
 /* Smallest device*/
 @media (min-width: 100px) and (max-width: 575px) {
   .bio {
-    padding: 40px 0px;
+    padding: 40px 0 80px 0px;
+    height: 100%;
   }
 
   .logo {

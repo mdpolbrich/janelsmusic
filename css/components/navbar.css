@@ -20,16 +20,17 @@
   opacity: 0.4;
 }
 
-.navbar-item {
-  color:#F5F2E7;
+.nav-item {
+  color:white;
   margin: 0 30px;
   text-decoration: none;
   font-weight: 500;
   text-shadow: 2px 2px 4px #2E3840;
   border-color: rgba(255, 255, 255, 0.23);
+  text-align: center;
 }
 
-.navbar-item:hover{
+.nav-item:hover{
   font-weight: 300;
   color:white;
   opacity: 0.4;
@@ -81,7 +82,7 @@
 
 /* Large devices (desktops, 992px and up)*/
 @media (min-width: 992px) and (max-width: 1100px) {
-  .navbar-item {
+  .nav-item {
     margin: 0 20px;
   }
 }

@@ -1,12 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
 @import url('components/animations.css');
-@import url('components/avatar.css');
+@import url('components/video.css');
 @import url('components/navbar.css');
 @import url('components/bio.css');
 @import url('components/cards.css');
 @import url('components/footer.css');
 @import url('components/hero.css');
-@import url('components/buttons.css');
 @import url('components/gallery.css');
 
 * {

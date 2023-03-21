@@ -1,9 +1,10 @@
 #hero {
-  background: url(/images/RAW1\(582\).jpg);
+  background: url(/images/01\(49\)\(1\).JPG);
   object-fit: cover;
   height: 700px;
   width: 100%;
   background-size: cover;
+  background-position: center;
   overflow: hidden;
   display: flex;
   justify-content: center;
