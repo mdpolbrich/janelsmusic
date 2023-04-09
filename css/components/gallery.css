@@ -3,6 +3,7 @@
   min-height: 75vh;
   padding: 0;
   overflow: hidden;
+  background-position: center;
 }
 
 .first-photo {
@@ -36,14 +37,6 @@
   }
 
   .last-photo {
-    min-height: 80vh;
-  }
-}
-
-/* Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px) {
-  .gallery-photo {
-    background-position: center;
-    min-height: 82vh;
+    display: none;
   }
 }

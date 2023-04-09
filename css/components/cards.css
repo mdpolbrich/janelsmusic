@@ -1,14 +1,13 @@
 #music {
-  background-color: #F5F2E7;
-  padding: 60px 0px;
+  background-color: #373331;
+  padding: 40px 0px;
 }
 
 .music-title {
   padding: 60px 0px;
-  color: #1B1A17;
+  color: white;
 }
 
-/* Desktop version */
 
 .desktop-cards {
   display: grid;
@@ -17,113 +16,11 @@
   grid-gap: 30px;
 }
 
-.desktop-card {
-  width: 350px;
-  border-radius: 8px;
-  box-shadow: 0 0 15px rgba(0,0,0,0.2);
-  margin: auto;
-  background-color: white;
-}
-
-.desktop-card .desktop-card-info {
-  padding: 0 20px 20px 30px;
-  display: block;
-  position: relative;
-}
-
-.desktop-card-info h4 {
-  font-family: 'Poppins', sans-serif;
-  font-size: 20px;
-}
-
-.desktop-card-info p {
-  font-family: 'Poppins', sans-serif;
-  font-size: 16px;
-  font-weight: 200px;
-  font-style: italic;
-}
-
-.desktop-card-img-top {
-  width: 100%;
-  padding: 20px;
-  border-radius: 16px;
-  height: 280px;
-}
-
-#fanlink {
-  max-width: 400px;
-  max-height: 620px;
-}
-
-.desktop-play-btn > i {
-  font-size: 30px;
-  color: white;
-  position: absolute;
-  top: -47px;
-  right: 30px;
-  background-color: #1DB954;
-  border-radius: 50%;
-  padding: 8px;
-}
-
-/* Mobile version */
-
-.mobile-card {
-  overflow: hidden;
-  height: 120px;
-  background: white;
-  box-shadow: 0 0 15px rgba(0,0,0,0.2);
-  display: flex;
-  align-items: center;
-  width: 100%;
-  margin-bottom: 20px;
-  border-radius: 4px;
-  position: relative;
-}
-
-.mobile-card img {
-  height: 100%;
-  width: 120px;
-  padding: 8px;
-  object-fit: cover;
-}
-
-.mobile-card h2 {
-  font-size: 16px;
-  font-weight: bold;
-  margin: 0;
-}
-
-.mobile-card p {
-  font-family: 'Poppins', sans-serif;
-  font-size: 14px;
-  font-style: italic;
-  inline-size: 125px;
-  padding-top: 4px;
-}
-
-.mobile-card .mobile-card-infos {
-  padding: 10px;
-}
-
-.mobile-play-btn > i {
-  font-size: 30px;
-  color: white;
-  background-color: #1DB954;
-  border-radius: 50%;
-  padding: 8px;
-  position: absolute;
-  top: 30px;
-  right: 20px;
-}
 
 /* Smallest device*/
 @media (min-width: 100px) and (max-width: 575px) {
-  .desktop-cards {
-    display: none;
-  }
   #music {
-    padding: 80px 0px;
+    padding: 30px 0px;
   }
 
   .music-title{
@@ -133,9 +30,7 @@
 
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
-  .mobile-card {
-    display: none;
-  }
+
 }
 
 /* Medium devices (tablets, 768px and up)*/

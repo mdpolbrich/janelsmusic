@@ -3,6 +3,10 @@
   padding: 4px;
 }
 
+.nav-logo {
+  display: none;
+}
+
 .socials {
   font-size: 28px;
 }
@@ -77,6 +81,16 @@
 @media (min-width: 100px) and (max-width: 991px) {
   .navbar-button {
     display: none;
+  }
+
+  .socials{
+    display: none;
+  }
+
+  .nav-logo{
+    display: block;
+    width: 30%;
+
   }
 }
 

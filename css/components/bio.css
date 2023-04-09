@@ -2,24 +2,23 @@
   background-color: #8D7B68;
 }
 
-.bio {
-  color: #F5F2E7;
-  padding: 60px 0px;
+.bio-description {
+  color: white;
   align-items: center;
-  height: 700px;
+  height: 600px;
 }
 
 .logo {
-  margin: 40px 0px;
+  margin-bottom: 20px;
+  width: 320px;
 }
 
-.bio > p {
+.bio-description > p {
   text-align: justify;
-  padding: 20px 50px 0px 50px;
-  margin: 0;
+  padding: 15px 50px;
 }
 
-.bio > svg {
+.bio-description > svg {
   overflow: hidden;
   width: 100%;
 }
@@ -32,14 +31,17 @@ path {
 
 /* Smallest device*/
 @media (min-width: 100px) and (max-width: 575px) {
-  .bio {
-    padding: 40px 0 80px 0px;
+  .bio-description {
+    padding-bottom: 40px;
     height: 100%;
   }
 
   .logo {
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 25px auto;
+  }
+
+  .bio-description > p {
+    padding: 20px;
   }
 }
